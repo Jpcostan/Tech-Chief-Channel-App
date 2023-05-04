@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.TodoArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  border-bottom: goldenrod 1px solid;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
